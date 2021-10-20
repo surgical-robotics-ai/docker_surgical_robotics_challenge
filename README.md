@@ -13,7 +13,7 @@ Afterward, depending upon which Ubuntu / ROS is preferred (`Ubuntu 20.04 with RO
 E.g.
 ```bash
 cd docker_surgical_robotics_challenge/noetic
-docker build -t collaborativerobotics/ros-ambf-surg_challenge:noetic .
+docker build -t collaborativerobotics/ros-ambf-surg-challenge:noetic .
 ```
 Once built, the Docker container can be created with the `--network host` argument to share the host network for ROS.
 
