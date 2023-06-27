@@ -15,7 +15,7 @@ RUN . /opt/ros/melodic/setup.sh && cd ~/ambf_python_client && mkdir build && cd 
 RUN echo 'source ~/ambf_python_client/build/devel/setup.bash' >> ~/.bashrc
 
 # clone surgical_robotics_challenge
-RUN cd && git clone https://github.com/collaborative-robotics/surgical_robotics_challenge
+RUN cd && git clone https://github.com/surgical-robotics-ai/surgical_robotics_challenge
 
 # Install the scripts
 RUN cd && cd surgical_robotics_challenge/scripts/ && pip install -e .

@@ -1,7 +1,7 @@
 # Dockerfiles for the Surgical Robotics Challenge
 
 ## Note:
-These dockerfiles can be used to create Docker images that contain the correct [ROS](https://hub.docker.com/_/ros) install, the [surgical robotics challenge](https://github.com/collaborative-robotics/surgical_robotics_challenge) and the necessary AMBF ROS msgs, and the [Python Client](https://github.com/adnanmunawar/ambf_python_client).
+These dockerfiles can be used to create Docker images that contain the correct [ROS](https://hub.docker.com/_/ros) install, the [surgical robotics challenge](https://github.com/surgical-robotics-ai/surgical_robotics_challenge) and the necessary AMBF ROS msgs, and the [Python Client](https://github.com/adnanmunawar/ambf_python_client).
 
 The Docker containers created from the Docker images can then be used to communicate with the Surgical Scene running in AMBF on the host machine.
 
